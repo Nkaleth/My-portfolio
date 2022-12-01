@@ -11,11 +11,8 @@ body {
 }
 
 .first-part {
-  height: 6715px;
   width: 375px;
-  left: -17px;
-  top: 10429px;
-  background-image: url(/img/header-illsutration-mobile@2x.png);
+  height: 648px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,28 +45,36 @@ h1 span {
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  padding-top: 40px;
-  padding-bottom: 75px;
   text-align: center;
   color: #172b4d;
 }
 
-.first-part .topnav {
+.aboutMe{
+  width: 375px;
+  height: 650px;
+  background-image: url(/img/header-illsutration-mobile@2x.png);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.topnav {
   background-color: #fff;
   height: 48px;
   width: 375px;
   display: flex;
-  padding-bottom: 10px;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
 }
 
-.first-part .social {
+.social {
   height: 20.000062942504883px;
   width: 170.1666717529297px;
-  left: 102.41666412353516px;
   top: 6342px;
+  list-style: none;
+  padding-inline-start:0 ;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:center
 }
