@@ -49,7 +49,7 @@ h1 span {
   color: #172b4d;
 }
 
-.aboutMe{
+.aboutMe {
   width: 375px;
   height: 650px;
   background-image: url(/img/header-illsutration-mobile@2x.png);
@@ -64,7 +64,7 @@ h1 span {
   height: 48px;
   width: 375px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -73,8 +73,16 @@ h1 span {
   width: 170.1666717529297px;
   top: 6342px;
   list-style: none;
-  padding-inline-start:0 ;
+  padding-inline-start: 0;
   display: flex;
   justify-content: space-between;
-  align-items:center
+  align-items: center;
+}
+
+.welcome {
+  padding-left: 20px;
+}
+
+.Menu {
+  padding-right: 30px;
 }
