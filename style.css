@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
 * {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -15,6 +16,9 @@ body {
   left: -17px;
   top: 10429px;
   background-image: url(/img/header-illsutration-mobile@2x.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -51,18 +55,12 @@ h1 span {
 }
 
 .first-part .topnav {
-  background-color: #ffffff;
+  background-color: #fff;
   height: 48px;
   width: 375px;
   display: flex;
   padding-bottom: 10px;
   justify-content: space-between;
-  align-items: center;
-}
-
-.first-part {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -75,4 +73,3 @@ h1 span {
   justify-content: space-between;
   align-items: center;
 }
-
