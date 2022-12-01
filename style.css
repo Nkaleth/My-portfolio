@@ -3,71 +3,76 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
 }
-body{
+
+body {
   display: flex;
   justify-content: center;
 }
-.first-part{
+
+.first-part {
   height: 6715px;
   width: 375px;
   left: -17px;
   top: 10429px;
-  border-radius: 0px;
   background-image: url(/img/header-illsutration-mobile@2x.png);
 }
-h1{
+
+h1 {
   width: 327px;
   height: 192px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   text-align: center;
   color: #172b4d;
-  
 }
-h1 span{
+
+h1 span {
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
   text-align: center;
   color: #36b37e;
 }
-.aboutMe p{
+
+.aboutMe p {
   width: 327px;
   height: 164px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 75px;
   text-align: center;
   color: #172b4d;
-
 }
-.first-part .topnav{
-  background-color: #FFFFFF;
+
+.first-part .topnav {
+  background-color: #ffffff;
   height: 48px;
   width: 375px;
-  border-radius: 0px;
   display: flex;
+  padding-bottom: 10px;
   justify-content: space-between;
   align-items: center;
 }
-.first-part{
+
+.first-part {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.first-part .social{
+
+.first-part .social {
   height: 20.000062942504883px;
   width: 170.1666717529297px;
   left: 102.41666412353516px;
   top: 6342px;
-  border-radius: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
