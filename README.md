@@ -31,7 +31,6 @@
 
 # 📖 My portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **My portfolio** is the first Microverse project to start a professional personal portfolio.
 
@@ -39,7 +38,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -54,7 +52,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **Correct use of the Figma templates on the project.**
 - **Correct use of the linters to have a Html/Css clean code.**
@@ -65,7 +62,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - Coming soon.😃
 
@@ -75,7 +71,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -94,7 +89,6 @@ In order to run this project you need:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Nilton Segura**
 
@@ -107,7 +101,6 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Coming soon**
 
@@ -127,7 +120,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project follow me to know more about me and my future projects.
 
@@ -137,7 +129,6 @@ If you like this project follow me to know more about me and my future projects.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank... my coding partners Felipe Haybar and Newton Alhassan.
 
