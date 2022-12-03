@@ -55,7 +55,7 @@ p {
 .Headline {
   width: 375px;
   height: 650px;
-  background-image: url(/img/Background_header.png);
+  background-image: url(img/Background_header.png);
   background-position: center;
   display: flex;
   flex-direction: column;
