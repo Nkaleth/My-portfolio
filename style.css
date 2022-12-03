@@ -55,7 +55,7 @@ p {
 .Headline {
   width: 375px;
   height: 650px;
-  background-image: url(/img/header-illsutration-mobile@2x.png);
+  background-image: url(/img/Background_header.png);
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ p {
 
 h2 {
   margin-bottom: 20px;
-  width: 327px;
+  width: 100%;
   height: 97px;
   font-weight: 700;
   font-size: 40px;
@@ -106,7 +106,7 @@ h2 {
 
 .Works {
   margin-top: 62px;
-  width: 375px;
+  width: 100%;
   display: grid;
   row-gap: 24px;
   grid-template-columns: auto;
@@ -240,7 +240,7 @@ h3 {
 }
 
 .tag2 {
-  padding: 8px;
+  padding: 12px;
   background: #fff;
   border-radius: 8px;
   font-style: normal;
