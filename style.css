@@ -8,6 +8,8 @@
 body {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .first-part {
@@ -39,7 +41,8 @@ h1 span {
   color: #36b37e;
 }
 
-.aboutMe p {
+p {
+  margin-bottom: 24px;
   width: 327px;
   height: 164px;
   font-size: 22px;
@@ -49,10 +52,11 @@ h1 span {
   color: #172b4d;
 }
 
-.aboutMe {
+.Headline {
   width: 375px;
   height: 650px;
   background-image: url(/img/header-illsutration-mobile@2x.png);
+  background-position: center;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -74,6 +78,8 @@ h1 span {
   top: 6342px;
   list-style: none;
   padding-inline-start: 0;
+  margin-top: 58px;
+  margin-bottom: 62px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,4 +91,180 @@ h1 span {
 
 .Menu {
   padding-right: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  width: 327px;
+  height: 97px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.Works {
+  margin-top: 62px;
+  width: 375px;
+  display: grid;
+  row-gap: 24px;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  width: 327px;
+  height: 474px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project ul {
+  width: 305px;
+  height: 32px;
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  width: 295px;
+  height: 57px;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: center;
+  color: #3a4a42;
+}
+
+.tag {
+  padding: 8px 12px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  list-style: none;
+}
+
+.aboutMe {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe h2 {
+  width: 375px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.GetMyResume {
+  padding-top: 24px;
+  margin-bottom: 59px;
+  width: 375px;
+  display: flex;
+}
+
+.ilu1 {
+  padding-left: 24px;
+}
+
+.ilu2 {
+  padding-right: 40px;
+}
+
+.LFS {
+  width: 375px;
+  display: grid;
+  row-gap: 24px;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutMe2 {
+  width: 327px;
+  height: 352px;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutMe2 img {
+  border: solid 16px;
+  border-radius: 50%;
+  border-color: #fff;
+  margin: 20px;
+  margin: auto;
+}
+
+.TagBox ul {
+  width: 320px;
+  height: 136px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-inline-start: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.AboutMe2 h3 {
+  margin: 0;
+  width: 295px;
+  height: 32px;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: center;
+  color: #344563;
+}
+
+.tag2 {
+  padding: 8px;
+  background: #fff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.finalP {
+  width: 327px;
+  height: 363px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.ButtonProj:hover {
+  opacity: 0.8;
+}
+
+.ButtonProj:active {
+  filter: contrast(60%);
 }

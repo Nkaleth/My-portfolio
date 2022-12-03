@@ -55,6 +55,10 @@
 
 - **Correct use of the Figma templates on the project.**
 - **Correct use of the linters to have a Html/Css clean code.**
+- **Understand how to parse a Figma design to create a UI.**
+- **Use Flexbox to place elements in the page.**
+- **Use CSS Grid to place elements in the page.**
+- **Build a personal portfolio site.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
