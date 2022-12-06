@@ -59,6 +59,9 @@
 - **Use Flexbox to place elements in the page.**
 - **Use CSS Grid to place elements in the page.**
 - **Build a personal portfolio site.**
+- **Create forms with HTML5 validations.**
+- **Understand the importance of UX.**
+- **Understand how to parse a Figma design to create a UI.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +86,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Clone this repo
-- Go to the 1erAvance branch.
+- Go to the contactForm-pair branch.
 - Open the index.html file in your browser
 - Enjoy it. 😃
 
@@ -134,7 +137,7 @@ If you like this project follow me to know more about me and my future projects.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank... my coding partners Felipe Haybar and Newton Alhassan.
+I would like to thank... my coding partners Felipe Haybar,Newton Alhassan and Josep L kausi.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
