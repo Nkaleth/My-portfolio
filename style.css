@@ -294,6 +294,8 @@ h3 {
   background:#fff;
   border: 1px solid #60C095;
   border-radius: 4px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .buttonForm{
@@ -302,7 +304,25 @@ h3 {
   color: #fff;
   background: #36B37F;
   border-radius: 4px;
-  width: 105px;
-  height: 24px
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
 
+.Final-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: scroll;
+  background: url("img/illustration-contact-form.png") 100% 52% no-repeat; 
+}
+.my_email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
 }
