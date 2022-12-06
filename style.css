@@ -269,40 +269,38 @@ h3 {
   filter: contrast(60%);
 }
 
-
-.Contact-Form{
+.Contact-Form {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.input1{
+.input1 {
   margin-top: 32px;
   height: 48px;
   width: 327px;
-  background:#fff;
-  border: 1px solid #D0D9D4;
+  background: #fff;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
 
-.input2{
+.input2 {
   margin-top: 24px;
   margin-bottom: 24px;
   height: 114px;
   width: 327px;
-  background:#fff;
-  border: 1px solid #60C095;
+  background: #fff;
+  border: 1px solid #60c095;
   border-radius: 4px;
   padding: 0;
   box-sizing: border-box;
 }
 
-.buttonForm{
+.buttonForm {
   height: 48px;
   width: 129px;
   color: #fff;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
   margin: 0;
   padding: 0;
@@ -317,9 +315,9 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-attachment: scroll;
-  background: url("img/illustration-contact-form.png") 100% 60% no-repeat; 
+  background: url("img/illustration-contact-form.png") 100% 60% no-repeat;
 }
+
 .my_mail {
   margin-top: 0;
   width: 375px;
@@ -328,7 +326,7 @@ h3 {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
 }
 
 .social2 {
