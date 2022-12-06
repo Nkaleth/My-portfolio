@@ -313,16 +313,41 @@ h3 {
 }
 
 .Final-part {
+  width: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-attachment: scroll;
-  background: url("img/illustration-contact-form.png") 100% 52% no-repeat; 
+  background: url("img/illustration-contact-form.png") 100% 60% no-repeat; 
 }
-.my_email {
-  font-weight: 400;
+.my_mail {
+  margin-top: 0;
+  width: 375px;
+  height: 189px;
+  font-weight: 400px;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
   color: #42526E;
+}
+
+.social2 {
+  height: 20.000062942504883px;
+  width: 170.1666717529297px;
+  top: 6342px;
+  list-style: none;
+  padding-inline-start: 0;
+  margin-top: 58px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonForm:hover {
+  opacity: 0.8;
+}
+
+.buttonForm:active {
+  filter: contrast(60%);
 }
