@@ -1,14 +1,3 @@
-<a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -102,6 +91,11 @@ In order to run this project you need:
 - GitHub: [@Nkaleth](https://github.com/Nkaleth)
 - Twitter: [@NoeSeguraL](https://twitter.com/NoeSeguraL)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/nseguralu)
+
+👤 **Joseph Lwanzo**
+
+- GitHub: [@Nkaleth](https://github.com/Grandi0z)
+- Twitter: [@NoeSeguraL](https://twitter.com/wa_inje)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -109,7 +103,8 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Coming soon**
+- **Responsive web design**
+- **CSS Frameworks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +132,7 @@ If you like this project follow me to know more about me and my future projects.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank... my coding partners Felipe Haybar,Newton Alhassan and Josep L kausi.
+I would like to thank... my coding partner Josep Lwanzo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +140,7 @@ I would like to thank... my coding partners Felipe Haybar,Newton Alhassan and Jo
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](/MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
