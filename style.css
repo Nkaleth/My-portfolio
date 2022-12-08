@@ -28,9 +28,9 @@ body {
   .first-part{
     width: 100%;
     height: 100%;
-    background-image: url(img/Header-llustration-desktop.png);
+    background-image: url(img/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size: cover;
   }
 }
 
@@ -476,7 +476,7 @@ h3 {
   background: url("img/illustration-contact-form.png") 100% 0.1% no-repeat;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 
   .Final-part {
     width: 81.32%;
@@ -528,3 +528,5 @@ h3 {
     margin: 0;
   }
 }
+
+
