@@ -7,6 +7,8 @@
 
 body {
   display: flex;
+  padding: 0;
+  margin: 0;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -15,9 +17,21 @@ body {
 .first-part {
   width: 375px;
   height: 648px;
+  background-image: url(img/Background_header.png);
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px){
+  .first-part{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Header-llustration-desktop.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+  }
 }
 
 h1 {
@@ -55,20 +69,9 @@ p {
 .Headline {
   width: 375px;
   height: 650px;
-  background-image: url(img/Background_header.png);
-  background-position: center;
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
-}
-
-.topnav {
-  background-color: #fff;
-  height: 48px;
-  width: 375px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -85,12 +88,49 @@ p {
   align-items: center;
 }
 
+
+.topnav {
+  background-color: #fff;
+  height: 48px;
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .welcome {
   padding-left: 20px;
 }
 
 .Menu {
   padding-right: 30px;
+}
+
+@media only screen and (min-width: 768px){
+  .Headline {
+    margin-top: 180px;
+    width: 63.89%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .textMain {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .social {
+    margin-top: 2.05%;
+
+  }
 }
 
 h2 {
@@ -103,6 +143,8 @@ h2 {
   text-align: center;
   color: #172b4d;
 }
+
+/** Projects part**/
 
 .Works {
   margin-top: 62px;
@@ -157,6 +199,35 @@ h3 {
   color: #3a4a42;
   list-style: none;
 }
+
+@media only screen and (min-width: 768px){
+  .Works {
+    width: 81.32%;
+    display: grid;
+    row-gap: 2.05%;
+    column-gap: 2.05%;
+    margin-top: 4.44%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .myRecentWorks {
+    width: 31.04%;
+    height: 3.33%;
+    padding: 0;
+    margin-top: 5.55%;
+    margin-bottom: 0;
+  }
+
+  .indicator {
+    display: none;
+  }
+  .project {
+
+  }
+}
+
+/*About me part*/
 
 .aboutMe {
   width: 375px;
@@ -251,16 +322,6 @@ h3 {
   color: #36b37e;
 }
 
-.finalP {
-  width: 327px;
-  height: 363px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-}
-
 .ButtonProj:hover {
   opacity: 0.8;
 }
@@ -269,10 +330,68 @@ h3 {
   filter: contrast(60%);
 }
 
+@media only screen and (min-width: 768px){
+  .aboutMe {
+    width: 81.3194%;
+    margin-top:7.78%;
+  }
+
+  p {
+    width: 78.57%;
+    height: 8.19%;
+    margin-top: 2.05%;
+    margin-bottom: 2.25%;
+    text-align: center;
+  }
+
+  .aboutMe h2 {
+    width: 38.17%;
+    height: auto;
+    padding: 0;
+    margin-top: 6.83%;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+
+  .ilu1 {
+    display: none;
+  }
+
+  .ilu2 {
+    display: none;
+  }
+
+  .GetMyResume {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .LFS {
+    width: 100%;
+    height: 30.74%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 2.05%;
+  }
+}
+
+/*Contact form part*/
+
 .Contact-Form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.finalP {
+  width: 327px;
+  height: 363px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
 }
 
 .input1 {
@@ -315,7 +434,6 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("img/illustration-contact-form.png") 100% 60% no-repeat;
 }
 
 .my_mail {
@@ -348,4 +466,65 @@ h3 {
 
 .buttonForm:active {
   filter: contrast(60%);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("img/illustration-contact-form.png") 100% 0.1% no-repeat;
+}
+
+@media only screen and (min-width: 768px){
+
+  .Final-part {
+    width: 81.32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .finalP {
+    display: flex;
+    width: 39.54%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+/* or 173% */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .Contact-Form {
+    width: 58.41%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .input1 {
+    width: 100%;
+  }
+
+  .input2 {
+    width: 100%;
+  }
+
+  .my_mail {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+    height: 72px;
+    margin-top: 10.07%;
+    background: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .social2 {
+    margin: 0;
+  }
 }
