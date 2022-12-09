@@ -889,3 +889,12 @@ h3 {
 .buttonForm:active {
   filter: contrast(60%);
 }
+
+.transitionIcn {
+  transition: width 2s, height 2s;
+}
+
+.transitionIcn:hover {
+  width: 150%;
+  height: 150%;
+}
