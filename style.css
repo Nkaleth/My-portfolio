@@ -894,8 +894,7 @@ h3 {
   transition: width 2s, height 2s;
 }
 
-.transitionIcn:hover{
+.transitionIcn:hover {
   width: 150%;
   height: 150%;
 }
-
