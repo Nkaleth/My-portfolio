@@ -528,3 +528,12 @@ h3 {
     margin: 0;
   }
 }
+.transitionIcn {
+  transition: width 2s, height 2s;
+ 
+}
+
+.transitionIcn:hover {
+  width: 150%;
+  height: 150%;
+}
