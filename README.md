@@ -51,6 +51,7 @@
 - **Create forms with HTML5 validations.**
 - **Understand the importance of UX.**
 - **Understand how to parse a Figma design to create a UI.**
+- **Understand how to create UIs adaptable to different screen sizes using media queries.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +76,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Clone this repo
-- Go to the contactForm-pair branch.
+- Go to the Desktop-version branch.
 - Open the index.html file in your browser
 - Enjoy it. 😃
 
@@ -94,17 +95,16 @@ In order to run this project you need:
 
 👤 **Joseph Lwanzo**
 
-- GitHub: [@Nkaleth](https://github.com/Grandi0z)
-- Twitter: [@NoeSeguraL](https://twitter.com/wa_inje)
+- GitHub: [@Grandi0z](https://github.com/Grandi0z)
+- Twitter: [@Wa_inje](https://twitter.com/wa_inje)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- **Responsive web design**
 - **CSS Frameworks**
+- **Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

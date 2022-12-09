@@ -12,30 +12,34 @@
       <nav class="topnav">
         <a href="index.html"><img class="welcome" src="img/Welcome.png"></a>
         <a href="#"><img class="Menu" src="img/Icon - Menu.png"></a>
-      </nav>
-      <nav class="nav_748px ">
-
-      </nav>       
+      </nav>      
     </header>
     <div class="first-part">
-        <section class="Headline">
-          <h1>Hey there. I'm Nilton<span> I'm a Full Stack web developer</span></h1>
-          <p class="textMain"> I can help you build a product , feature or website. Look through some of my work and experience! If you
-              like what you see and have a project you need coded, 
-              don't hesitate to contact me.</p>
-          <ul class="social">
-            <li><a href="https://twitter.com/NoeSeguraL"><img src="img/twitter.png"></a></li>
-            <li><a href="https://www.linkedin.com/in/nseguralu/"><img src="img/Linkedin icon.png"></a></li>
-            <li><a href="https://medium.com/@nseguralu"><img src="img/medium.png"></a></li>
-            <li><a href="https://github.com/Nkaleth"><img src="img/github.png"></a></li>
-            <li><a href="https://angel.co/u/nilton-segura"><img src="img/angellist.png"></a></li>
-          </ul>  
-          <a href="#"><img class="button" src="img/NormalButtonDisabled.png"></a>
-        </section>       
+      <nav class="nav_748px">
+        <div class="NavDesktop">
+          <a href="#portf">Portfolio</a>
+          <a href="#aboutMe">About</a>
+          <a href="#Contact">Contact</a>
+        </div>
+      </nav> 
+      <section class="Headline">
+        <h1>Hey there. I'm Nilton<span> I'm a Full Stack web developer</span></h1>
+        <p class="textMain"> I can help you build a product , feature or website. Look through some of my work and experience! If you
+            like what you see and have a project you need coded, 
+            don't hesitate to contact me.</p>
+        <ul class="social">
+          <li><a href="https://twitter.com/NoeSeguraL"><img src="img/twitter.png"></a></li>
+          <li><a href="https://www.linkedin.com/in/nseguralu/"><img src="img/Linkedin icon.png"></a></li>
+          <li><a href="https://medium.com/@nseguralu"><img src="img/medium.png"></a></li>
+          <li><a href="https://github.com/Nkaleth"><img src="img/github.png"></a></li>
+          <li><a href="https://angel.co/u/nilton-segura"><img src="img/angellist.png"></a></li>
+        </ul>  
+        <a href="#"><img class="button" src="img/NormalButtonDisabled.png"></a>
+      </section>       
     </div>
     <h2 class="myRecentWorks">My Recent Works</h2>
     <img class="indicator" src="img/Indicator.png" alt="Litte divisor">
-    <section class="Works">
+    <section id="portf" class="Works">
       <article class="project">
         <img class="proj-image" src="img/Snapshoot Portfolio.png" alt="ProjectImage">
         <h3 class="Proj-Text">Multi-Post Stories Gain+Glory</h3>
@@ -103,7 +107,7 @@
         <a href="#project"><img class="ButtonProj" src="img/ButtonEnable.png" alt="ButtonEnable"></a>
       </article>
     </section>
-    <section class="aboutMe">
+    <section id="aboutMe" class="aboutMe">
       <h2>About me <img class="ilu1" src="img/illustration 1- about me-mobile.png" alt="illustration1"></h2>
       <p> I can help you build a product , feature or website Look through some of my work and experience! If you like
         what you see and have a project you need coded, 
@@ -114,8 +118,10 @@
       </div>
       <div class="LFS">
         <div class="AboutMe2">
-          <img src="img/Icon Langguage.png" alt="LangguageIcon">
-          <h3>Languages</h3>
+          <div class="icons">
+            <img src="img/Icon Langguage.png" alt="LangguageIcon">
+          </div>
+          <h3 class="h3Me">Languages</h3>
           <div class="TagBox">
             <ul>
               <li class="tag2">JavaScript</li>
@@ -126,8 +132,10 @@
           </div>
         </div>
         <div class="AboutMe2">
-          <img src="img/IconFrame.png" alt="IconFrame">
-          <h3>Frameworks</h3>
+          <div class="icons">
+            <img src="img/IconFrame.png" alt="IconFrame">
+          </div>
+          <h3 class="h3Me">Frameworks</h3>
             <div class="TagBox">
               <ul>
                 <li class="tag2">Boostrap</li>
@@ -139,8 +147,10 @@
             </div>
         </div>
         <div class="AboutMe2">
-          <img src="img/IconSkill.png" alt="IconSkill">
-          <h3>Skills</h3>
+          <div class="icons">
+            <img src="img/IconSkill.png" alt="IconSkill">
+          </div>
+          <h3 class="h3Me">Skills</h3>
             <div class="TagBox">
               <ul>
                 <li class="tag2">Codekit</li>
@@ -153,7 +163,7 @@
         </div>
       </div>
     </section>
-    <section class="Final-part">
+    <section id="Contact" class="Final-part">
       <p class="finalP">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       <form action="https://formspree.io/f/mwkzgbqw" method="post" class="Contact-Form">
         <input class="input1" type="text" id="name" name="user_name" placeholder="  Full name" required maxlength="30">
