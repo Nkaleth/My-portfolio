@@ -52,6 +52,8 @@
 - **Understand the importance of UX.**
 - **Understand how to parse a Figma design to create a UI.**
 - **Understand how to create UIs adaptable to different screen sizes using media queries.**
+- **Use GitHub Pages to deploy web pages.**
+- **Demonstrate ability to ask clarifying questions about ambiguous requirements.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,8 +61,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+Enjoy this proyect 😃
 
-- Coming soon.😃
+- https://nkaleth.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

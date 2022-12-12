@@ -9,9 +9,9 @@ body {
   display: flex;
   padding: 0;
   margin: 0;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background: url("img/illustration-about\ me-1-desktop.png") 100% 69% no-repeat, url("img/illustration-about-me-2-desktop.png") 0% 69% no-repeat, url("img/illustration-1-contact-form-desktop.png") 0% 99% no-repeat, url("img/illustration-2-contact-form-desktop.png") 20% 98% no-repeat, url("img/contact\ form-illustratoin-3-desktop.png") 100% 97.5% no-repeat;
   background-size: auto;
 }
