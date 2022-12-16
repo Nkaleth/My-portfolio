@@ -64,7 +64,7 @@
 Enjoy this proyect 😃
 
 - https://nkaleth.github.io/
-- Also you can see an small presentation about it:
+- Also you can watch an small presentation about it:
 https://www.loom.com/share/3775af48e28044be9d03a132100fe8a0
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
