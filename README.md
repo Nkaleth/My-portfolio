@@ -100,7 +100,16 @@ In order to run this project you need:
 
 - GitHub: [@Grandi0z](https://github.com/Grandi0z)
 - Twitter: [@Wa_inje](https://twitter.com/wa_inje)
+
+👤 **Alejandro Maggioni**
+
+- GitHub: [@githubhandle](https://github.com/alex1779/)
+- Twitter: [@twitterhandle](https://twitter.com/alex1779)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-maggioni-086678b5/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- FUTURE FEATURES -->
 
