@@ -54,6 +54,11 @@
 - **Understand how to create UIs adaptable to different screen sizes using media queries.**
 - **Use GitHub Pages to deploy web pages.**
 - **Demonstrate ability to ask clarifying questions about ambiguous requirements.**
+- **Use basic JavaScript syntax.**
+- **Use JavaScript to manipulate DOM elements.**
+- **Use JavaScript events.**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +84,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Clone this repo
-- Go to the Desktop-version branch.
+- Go to the mobile_menu branch.
 - Open the index.html file in your browser
 - Enjoy it. 😃
 
