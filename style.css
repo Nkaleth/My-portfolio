@@ -320,7 +320,7 @@ h3 {
     color: #172b4d;
   }
 
-  .ButtonProj { center;
+  .ButtonProj {
     width: 100%;
     height: 100%;
   }
@@ -900,25 +900,26 @@ h3 {
   height: 150%;
 }
 
-/*Mobile Menu*/
+/* Mobile-Menu */
 
 .mobileMenu {
-  color:#3a4a42;
-  display: flex;
+  color: #3a4a42;
   flex-direction: column;
-  display: none;  
+  display: none;
 }
+
 .mobileMenu a {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #3A4A42;
+  color: #3a4a42;
   margin: 3%;
 }
 
 .mobileMenu a:link {
   text-decoration: none;
 }
+
 .btMob {
   all: unset;
 }
