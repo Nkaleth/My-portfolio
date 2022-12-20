@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Nilton Segura's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/portfolio.js"></script>
   </head>
+
   <body class="body">
-    <header>
+
+    <div class="mobileMenu">
+      <a href="index.html" class="btMob"><img src="img/X.png" alt="CloseMenu"></a>
+      <a href="#myRecentWorks" onclick="goprojects()">Portfolio</a>
+      <a href="#aboutMe"  onclick="goaboutme()">About</a>
+      <a href="#Contact" onclick="contactme()" >Contact</a>
+    </div>
+
+    <header class="header">
       <nav class="topnav">
         <a href="index.html"><img class="welcome" src="img/Welcome.png"></a>
-        <a href="#"><img class="Menu" src="img/Icon - Menu.png"></a>
+        <button class="Hamburger" href="" onclick="displayMobileMenu()"><img src="img/Icon - Menu.png"></button>
       </nav>      
     </header>
+    
     <div class="first-part">
       <nav class="nav_748px">
         <div class="NavDesktop">
@@ -22,7 +33,7 @@
           <a href="#Contact">Contact</a>
         </div>
       </nav> 
-      <section class="Headline">
+      <section id="Headline" class="Headline">
         <h1>Hey there. I'm Nilton<span> I'm a Full Stack web developer</span></h1>
         <p class="textMain"> I can help you build a product , feature or website. Look through some of my work and experience! If you
             like what you see and have a project you need coded, 
@@ -37,8 +48,10 @@
         <a href="#"><img class="button" src="img/NormalButtonDisabled.png"></a>
       </section>       
     </div>
-    <h2 class="myRecentWorks">My Recent Works</h2>
-    <img class="indicator" src="img/Indicator.png" alt="Litte divisor">
+    
+    <h2 id="myRecentWork" class="myRecentWorks">My Recent Works</h2>
+    <img class="Indicator" src="img/Indicator.png" alt="Litte divisor">
+
     <section id="portf" class="Works">
       <article class="project">
         <img class="proj-image" src="img/Snapshoot Portfolio.png" alt="ProjectImage">
@@ -107,6 +120,7 @@
         <a href="#project"><img class="ButtonProj" src="img/ButtonEnable.png" alt="ButtonEnable"></a>
       </article>
     </section>
+
     <section id="aboutMe" class="aboutMe">
       <h2>About me <img class="ilu1" src="img/illustration 1- about me-mobile.png" alt="illustration1"></h2>
       <p> I can help you build a product , feature or website Look through some of my work and experience! If you like
@@ -163,6 +177,7 @@
         </div>
       </div>
     </section>
+
     <section id="Contact" class="Final-part">
       <p class="finalP">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       <form action="https://formspree.io/f/mwkzgbqw" method="post" class="Contact-Form">
@@ -172,6 +187,7 @@
         <button name="submit" class="buttonForm">Get in touch</button>
       </form>
     </section> 
+
     <footer class="footer">
       <img src="img/footer_line.png" class="lineFooter" alt="bottom line">
       <ul class="social2">
@@ -183,5 +199,6 @@
       </ul>
       <p class="my_mail">nseguralu@gmail.com</p>
     </footer>
+
   </body>
 </html>
