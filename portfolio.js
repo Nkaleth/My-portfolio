@@ -1,37 +1,77 @@
+function displayMobileMenu() {
+  const Indicator = document.querySelector('.Indicator');
+  Indicator.style.display = 'none';
 
+  const header = document.querySelector('.header');
+  header.style.display = 'none';
 
-function display_mobileMenu() {
+  const firstpart = document.querySelector('.first-part');
+  firstpart.style.display = 'none';
 
-    let topnav = document.querySelector('body');
-    topnav.style.display = "none";
+  const myRecentWorks = document.querySelector('.myRecentWorks');
+  myRecentWorks.style.display = 'none';
 
-    let mobileMenu = document.querySelector('.headline');
-    mobileMenu.classList.add('mobMenu');
+  const Works = document.querySelector('.Works');
+  Works.style.display = 'none';
 
-    let listMenu = document.createElement('ul') ;
-    listMenu.classList.add('listMenu');
+  const aboutMe = document.querySelector('.aboutMe');
+  aboutMe.style.display = 'none';
 
-    let portfolio = document.createElement('li');
-    portfolio.textContent = ('Portfolio');
-    portfolio.setAttribute('href', '#portf');
-    listMenu.appendChild(listMenu);
+  const Finalpart = document.querySelector('.Final-part');
+  Finalpart.style.display = 'none';
 
-    let about = document.createElement('li');
-    about.textContent = ('About');
-    about.setAttribute('href', '#about');
-    listMenu.appendChild(listMenu);
+  const footer = document.querySelector('.footer');
+  footer.style.display = 'none';
 
-    let contact = document.createElement('li');
-    contact.textContent = ('Contact');
-    contact.setAttribute('href', '#Contact');
-    listMenu.appendChild(listMenu);
-
-    mobileMenu.appendChild(listMenu);
-    document.body.appendChild(mobileMenu);
-
+  const mobileMenu = document.querySelector('.mobileMenu');
+  mobileMenu.style.display = 'flex';
+  mobileMenu.style.width = '100%';
+  mobileMenu.style.height = '184px';
 }
 
-let hamburger = document.querySelector('.linkMenu');
-hamburger.addEventListener("click", display_mobileMenu);
+function restoreview() {
+  const mobileMenu = document.querySelector('.mobileMenu');
+  mobileMenu.style.display = 'none';
 
+  const Indicator = document.querySelector('.Indicator');
+  Indicator.style.display = 'flex';
 
+  const header = document.querySelector('.header');
+  header.style.display = 'flex';
+
+  const firstpart = document.querySelector('.first-part');
+  firstpart.style.display = 'flex';
+
+  const myRecentWorks = document.querySelector('.myRecentWorks');
+  myRecentWorks.style.display = 'block';
+
+  const Works = document.querySelector('.Works');
+  Works.style.display = 'grid';
+
+  const aboutMe = document.querySelector('.aboutMe');
+  aboutMe.style.display = 'flex';
+
+  const Finalpart = document.querySelector('.Final-part');
+  Finalpart.style.display = 'flex';
+
+  const footer = document.querySelector('.footer');
+  footer.style.display = 'flex';
+}
+
+function goprojects() {
+  restoreview();
+  const projects = document.querySelector('#portf');
+  projects.scrollIntoView();
+}
+
+function goaboutme() {
+  restoreview();
+  const aboutMe = document.querySelector('#aboutMe');
+  aboutMe.scrollIntoView();
+}
+
+function contactme() {
+  restoreview();
+  const aboutMe = document.querySelector('#Contact"');
+  aboutMe.scrollIntoView();
+}

@@ -8,14 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <script src="/portfolio.js"></script>
   </head>
+
   <body class="body">
-    <header>
+
+    <div class="mobileMenu">
+      <a href="index.html" class="btMob"><img src="img/X.png" alt="CloseMenu"></a>
+      <a href="#portf" onclick="goprojects()">Portfolio</a>
+      <a href="#aboutMe"  onclick="goaboutme()">About</a>
+      <a href="#Contact" onclick="contactme()" >Contact</a>
+    </div>
+
+    <header class="header">
       <nav class="topnav">
         <a href="index.html"><img class="welcome" src="img/Welcome.png"></a>
-        <a class=linkMenu href=" "><img class="Menu" src="img/Icon - Menu.png"></a>
+        <button class="Hamburger" href="" onclick="displayMobileMenu()"><img src="img/Icon - Menu.png"></button>
       </nav>      
     </header>
-
+    
     <div class="first-part">
       <nav class="nav_748px">
         <div class="NavDesktop">
@@ -24,7 +33,7 @@
           <a href="#Contact">Contact</a>
         </div>
       </nav> 
-      <section class="Headline">
+      <section id="Headline" class="Headline">
         <h1>Hey there. I'm Nilton<span> I'm a Full Stack web developer</span></h1>
         <p class="textMain"> I can help you build a product , feature or website. Look through some of my work and experience! If you
             like what you see and have a project you need coded, 
@@ -41,7 +50,7 @@
     </div>
     
     <h2 class="myRecentWorks">My Recent Works</h2>
-    <img class="indicator" src="img/Indicator.png" alt="Litte divisor">
+    <img class="Indicator" src="img/Indicator.png" alt="Litte divisor">
 
     <section id="portf" class="Works">
       <article class="project">
