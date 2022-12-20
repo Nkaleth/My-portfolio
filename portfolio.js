@@ -60,7 +60,7 @@ function restoreview() {
 
 function goprojects() {
   restoreview();
-  const projects = document.querySelector('#portf');
+  const projects = document.querySelector('#myRecentWork');
   projects.scrollIntoView();
 }
 
@@ -72,6 +72,11 @@ function goaboutme() {
 
 function contactme() {
   restoreview();
-  const aboutMe = document.querySelector('#Contact"');
+  const aboutMe = document.querySelector('#Contact');
   aboutMe.scrollIntoView();
 }
+
+goaboutme();
+goprojects();
+contactme();
+displayMobileMenu();
