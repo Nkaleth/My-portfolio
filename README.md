@@ -86,7 +86,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Clone this repo
-- Go to the mobile_menu branch.
+- Go to the details_popup_window branch.
 - Open the index.html file in your browser
 - Enjoy it. 😃
 
