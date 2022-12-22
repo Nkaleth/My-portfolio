@@ -77,11 +77,12 @@ function ClosePopUp() {
   PopUp.style.display = 'none';
 }
 
-function CreatePopUp(id) { // id=string
+/*
+function CreatePopUp() { // id=string
   const body = document.querySelector('.body');
   const PopUp = document.createElement('div');
   PopUp.classList.add('MobilePopUp');
-  PopUp.innerHTML = createStrProjectMob(id);
+  PopUp.innerHTML = createStrProjectMob('button1');
   body.prepend(PopUp);
   if (window.innerWidth < 768) {
     const btMobWhite = document.querySelector('.btMobWhite');
@@ -90,23 +91,110 @@ function CreatePopUp(id) { // id=string
     const btMobDesktop = document.querySelector('.btMobDesktop');
     btMobDesktop.addEventListener('click', ClosePopUp);
   }
-}
+} */
 
 document.addEventListener('DOMContentLoaded', () => {
   const string = createStrProjects(countProj);
-  document.querySelector('#portf').innerHTML = string; // proyectos loaded
+  document.querySelector('#portf').innerHTML = string; // here projetcs loaded with ID buttons.
 
   /* PopUp Mobile & Desktop */
 
-  const container = document.querySelector('#portf');
-  const buttons = container.getElementsByTagName('button');
-  const buttonPressed = (e) => {
-    CreatePopUp(`${e.target.id}`);
-  };
+  const button1 = document.querySelector('#Button1');
+  const button2 = document.querySelector('#Button2');
+  const button3 = document.querySelector('#Button3');
+  const button4 = document.querySelector('#Button4');
+  const button5 = document.querySelector('#Button5');
+  const button6 = document.querySelector('#Button6');
 
-  for (const button of buttons) {
-    button.addEventListener('click', buttonPressed);
-  }
+  button1.addEventListener('click', () => {
+    const body = document.querySelector('.body');
+    const PopUp = document.createElement('div');
+    PopUp.classList.add('MobilePopUp');
+    PopUp.innerHTML = createStrProjectMob('button1');
+    body.prepend(PopUp);
+    if (window.innerWidth < 768) {
+      const btMobWhite = document.querySelector('.btMobWhite');
+      btMobWhite.addEventListener('click', ClosePopUp);
+    } else {
+      const btMobDesktop = document.querySelector('.btMobDesktop');
+      btMobDesktop.addEventListener('click', ClosePopUp);
+    }
+  });
+
+  button2.addEventListener('click', () => {
+    const body = document.querySelector('.body');
+    const PopUp = document.createElement('div');
+    PopUp.classList.add('MobilePopUp');
+    PopUp.innerHTML = createStrProjectMob('button2');
+    body.prepend(PopUp);
+    if (window.innerWidth < 768) {
+      const btMobWhite = document.querySelector('.btMobWhite');
+      btMobWhite.addEventListener('click', ClosePopUp);
+    } else {
+      const btMobDesktop = document.querySelector('.btMobDesktop');
+      btMobDesktop.addEventListener('click', ClosePopUp);
+    }
+  });
+
+  button3.addEventListener('click', () => {
+    const body = document.querySelector('.body');
+    const PopUp = document.createElement('div');
+    PopUp.classList.add('MobilePopUp');
+    PopUp.innerHTML = createStrProjectMob('button3');
+    body.prepend(PopUp);
+    if (window.innerWidth < 768) {
+      const btMobWhite = document.querySelector('.btMobWhite');
+      btMobWhite.addEventListener('click', ClosePopUp);
+    } else {
+      const btMobDesktop = document.querySelector('.btMobDesktop');
+      btMobDesktop.addEventListener('click', ClosePopUp);
+    }
+  });
+
+  button4.addEventListener('click', () => {
+    const body = document.querySelector('.body');
+    const PopUp = document.createElement('div');
+    PopUp.classList.add('MobilePopUp');
+    PopUp.innerHTML = createStrProjectMob('button4');
+    body.prepend(PopUp);
+    if (window.innerWidth < 768) {
+      const btMobWhite = document.querySelector('.btMobWhite');
+      btMobWhite.addEventListener('click', ClosePopUp);
+    } else {
+      const btMobDesktop = document.querySelector('.btMobDesktop');
+      btMobDesktop.addEventListener('click', ClosePopUp);
+    }
+  });
+
+  button5.addEventListener('click', () => {
+    const body = document.querySelector('.body');
+    const PopUp = document.createElement('div');
+    PopUp.classList.add('MobilePopUp');
+    PopUp.innerHTML = createStrProjectMob('button5');
+    body.prepend(PopUp);
+    if (window.innerWidth < 768) {
+      const btMobWhite = document.querySelector('.btMobWhite');
+      btMobWhite.addEventListener('click', ClosePopUp);
+    } else {
+      const btMobDesktop = document.querySelector('.btMobDesktop');
+      btMobDesktop.addEventListener('click', ClosePopUp);
+    }
+  });
+
+  button6.addEventListener('click', () => {
+    const body = document.querySelector('.body');
+    const PopUp = document.createElement('div');
+    PopUp.classList.add('MobilePopUp');
+    PopUp.innerHTML = createStrProjectMob('button6');
+    body.prepend(PopUp);
+    if (window.innerWidth < 768) {
+      const btMobWhite = document.querySelector('.btMobWhite');
+      btMobWhite.addEventListener('click', ClosePopUp);
+    } else {
+      const btMobDesktop = document.querySelector('.btMobDesktop');
+      btMobDesktop.addEventListener('click', ClosePopUp);
+    }
+  });
 });
 
 /* Mobile Menu */
