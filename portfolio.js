@@ -1,100 +1,112 @@
 /* Projects Dynamically */
 
-let projects = {
-  1 : {
+const projects = {
+  1: {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
-    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
+    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
     liveVersion: '#url',
-    linkSource: '#url'
+    linkSource: '#url',
   },
-  2 : {
+  2: {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
-    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
+    featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
+    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
     liveVersion: '#url',
-    linkSource: '#url'
+    linkSource: '#url',
   },
-  3 : {
+  3: {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
-    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
+    featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
+    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
     liveVersion: '#url',
-    linkSource: '#url'
+    linkSource: '#url',
   },
-  4 : {
+  4: {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
-    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
+    featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
+    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
     liveVersion: '#url',
-    linkSource: '#url'
+    linkSource: '#url',
   },
-  5 : {
+  5: {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
-    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
+    featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
+    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
     liveVersion: '#url',
-    linkSource: '#url'
+    linkSource: '#url',
   },
-  6 : {
+  6: {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
-    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
+    featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
+    technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
     liveVersion: '#url',
-    linkSource: '#url'
+    linkSource: '#url',
   },
-}
-let countProj = Object.keys(projects).length;
+};
+const countProj = Object.keys(projects).length;
 
 function createStrProjects(num) {
   let string = '';
-  for(let i=1;i<=num;i++){
-    string += `<article class="project"><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><button id= "Button${i}" class="btProjMob" ><img class="ButtonProj" src="img/ButtonEnable.png" alt="ButtonEnable"></button></article>`;
+  for (let i = 1; i <= num; i += 1) {
+    string += `<article class="project"><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button></article>`;
   }
   return string;
 }
 
 function createStrProjectMob(id) {
-  let str = id;
-  let i = str.replace(/\D/g,''); 
-    string = `<article class="ProjectPopUp"><button class="btMobWhite"><img src="img/X_white.svg" alt="ButtonClose"></button><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><p>${projects[i].description}</p><div class="buttonMobPopup"><a href="#live"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a></div></article>`;
+  let string = '';
+  const str = id;
+  const i = str.replace(/\D/g, '');
+  if (window.innerWidth < 768) {
+    string = `<div class="whiteBackground"><article class="ProjectPopUp"><button class="btMobWhite"><img src="img/X_white.svg" alt="ButtonClose"></button><img class="imagePopMob" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><p class="popUpDescription">${projects[i].description}</p><div class="buttonMobPopup"><a href="#live"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a></div></article></div>`;
+  } else {
+    string = `<div class="whiteBackground"><button class="btMobDesktop"><img src="img/proy_button_desktop.svg" alt="ButtonClose"></button><article class="ProjectPopUpDesk"><img class="proj-image" src="${projects[i].featuredImage[1]}" alt="ProjectImage"><div class="h3_ButtonsPopUpDesk"><h3 class="ProjTextPopUpDeskt">${projects[i].name}</h3><div class="buttonMobPopupDesk"><a href="#live"><img class="buttonPopUpDesktop" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="buttonPopUpDesktop" src="img/See_source.svg" alt="ButtonEnable"></a></div></div><ul><li class="tagDesktop">${projects[i].technologies[0]}</li><li class="tagDesktop">${projects[i].technologies[1]}</li><li class="tagDesktop">${projects[i].technologies[2]}</li><li class="tagDesktop">${projects[i].technologies[3]}</li><li class="tagDesktop">${projects[i].technologies[4]}</li><li class="tagDesktop">${projects[i].technologies[5]}</li></ul><p class = "popUpDescription" >${projects[i].description}</p></article></div>`;
+  }
   return string;
 }
 
 function ClosePopUp() {
-  let PopUp = document.querySelector('.MobilePopUp');
+  const PopUp = document.querySelector('.MobilePopUp');
   PopUp.style.display = 'none';
 }
 
-function CreatePopUp(id) { //id=string
-  let body = document.querySelector('.body');
-  let PopUp = document.createElement('div');
+function CreatePopUp(id) { // id=string
+  const body = document.querySelector('.body');
+  const PopUp = document.createElement('div');
   PopUp.classList.add('MobilePopUp');
   PopUp.innerHTML = createStrProjectMob(id);
   body.prepend(PopUp);
-  let btMobWhite = document.querySelector('.btMobWhite');
-  btMobWhite.addEventListener('click', ClosePopUp);
+  if (window.innerWidth < 768) {
+    const btMobWhite = document.querySelector('.btMobWhite');
+    btMobWhite.addEventListener('click', ClosePopUp);
+  } else {
+    const btMobDesktop = document.querySelector('.btMobDesktop');
+    btMobDesktop.addEventListener('click', ClosePopUp);
+  }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
- let string = createStrProjects(countProj);
-  document.querySelector('#portf').innerHTML = string; //proyectos loaded
+document.addEventListener('DOMContentLoaded', () => {
+  const string = createStrProjects(countProj);
+  document.querySelector('#portf').innerHTML = string; // proyectos loaded
 
   /* PopUp Mobile & Desktop */
-  let container = document.querySelector('#portf');
-  let buttons = container.getElementsByTagName('button');
-  let buttonPressed = e => {
+
+  const container = document.querySelector('#portf');
+  const buttons = container.getElementsByTagName('button');
+  const buttonPressed = (e) => {
     CreatePopUp(`${e.target.id}`);
+  };
+
+  for (const button of buttons) {
+    button.addEventListener('click', buttonPressed);
   }
-  for (let button of buttons) {
-    button.addEventListener("click", buttonPressed);
-  }  
 });
 
 /* Mobile Menu */
@@ -181,5 +193,3 @@ goaboutme();
 goprojects();
 contactme();
 displayMobileMenu();
-
-
