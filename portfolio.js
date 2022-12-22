@@ -4,7 +4,7 @@ let projects = {
   1 : {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'img/Snapshoot_Portfolio_mobile.png',
+    featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
     liveVersion: '#url',
     linkSource: '#url'
@@ -12,7 +12,7 @@ let projects = {
   2 : {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'img/Snapshoot_Portfolio_mobile.png',
+    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
     liveVersion: '#url',
     linkSource: '#url'
@@ -20,7 +20,7 @@ let projects = {
   3 : {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'img/Snapshoot_Portfolio_mobile.png',
+    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
     liveVersion: '#url',
     linkSource: '#url'
@@ -28,7 +28,7 @@ let projects = {
   4 : {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'img/Snapshoot_Portfolio_mobile.png',
+    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
     liveVersion: '#url',
     linkSource: '#url'
@@ -36,7 +36,7 @@ let projects = {
   5 : {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'img/Snapshoot_Portfolio_mobile.png',
+    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
     liveVersion: '#url',
     linkSource: '#url'
@@ -44,7 +44,7 @@ let projects = {
   6 : {
     name: 'Keeping track of hundreds of components',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'img/Snapshoot_Portfolio_mobile.png',
+    featuredImage:['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'], 
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'] ,
     liveVersion: '#url',
     linkSource: '#url'
@@ -55,19 +55,47 @@ let countProj = Object.keys(projects).length;
 function createStrProjects(num) {
   let string = '';
   for(let i=1;i<=num;i++){
-    string += `<article class="project"><img class="proj-image" src="${projects[i].featuredImage}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li><li class="tag">${projects[i].technologies[3]}</li></ul><a href="#project"><img class="ButtonProj" src="img/ButtonEnable.png" alt="ButtonEnable"></a></article>`;
+    string += `<article class="project"><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><button id= "Button${i}" class="btProjMob" ><img class="ButtonProj" src="img/ButtonEnable.png" alt="ButtonEnable"></button></article>`;
   }
   return string;
+}
+
+
+function createStrProjectMob(id) {
+  let str = id;
+  let i = str.replace(/\D/g,''); 
+    string = `<article class="ProjectPopUp"><button class="btMob"><img src="img/X_white.svg" alt="ButtonClose"></button><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><p>${projects[i].description}</p><div class="buttonMobPopup"><a href="#live"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a></article>`;
+  return string;
+}
+
+function CreatePopUp() {
+  let proy = document.querySelector('.body');
+  let PopUp = document.createElement('div');
+  PopUp.classList.add('MobilePopUp');
+  let str2= createStrProjectMob('Button1');
+  PopUp.innerHTML = str2;
+  proy.appendChild(PopUp);
+
 }
 
 document.addEventListener("DOMContentLoaded", () => {
  let string = createStrProjects(countProj);
   document.querySelector('#portf').innerHTML = string;
 
+
+  /* PopUp Mobile & Desktop */
+
+  let Button1 = document.querySelector('#Button1');
+  Button1.addEventListener('click', CreatePopUp );
+
+
+
 });
 
 
+
 /* Mobile Menu */
+
 function displayMobileMenu() {
   const Indicator = document.querySelector('.Indicator');
   Indicator.style.display = 'none';

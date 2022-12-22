@@ -925,3 +925,39 @@ h3 {
   position: relative;
   right: -90%;
 }
+
+.btProjMob {
+  all:unset;
+}
+
+.MobilePopUp { 
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-image: url(img/Overlay.svg);
+  background-position: center;
+  
+}
+
+.ProjectPopUp {
+  margin: 4%;
+  width: auto;
+  height: auto;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.ProjectPopUp ul {
+  width: 305px;
+  height: 32px;
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: space-between;
+  align-items: center;
+}
