@@ -60,36 +60,37 @@ function createStrProjects(num) {
   return string;
 }
 
-
 function createStrProjectMob(id) {
   let str = id;
   let i = str.replace(/\D/g,''); 
-    string = `<article class="ProjectPopUp"><button class="btMob"><img src="img/X_white.svg" alt="ButtonClose"></button><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><p>${projects[i].description}</p><div class="buttonMobPopup"><a href="#live"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a></article>`;
+    string = `<article class="ProjectPopUp"><button class="btMobWhite"><img src="img/X_white.svg" alt="ButtonClose"></button><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><p>${projects[i].description}</p><div class="buttonMobPopup"><a href="#live"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a></article>`;
   return string;
 }
 
+function ClosePopUp() {
+  let PopUp = document.querySelector('.MobilePopUp');
+  PopUp.style.display = 'none';
+}
+
 function CreatePopUp() {
-  let proy = document.querySelector('.body');
+  let body = document.querySelector('.body');
   let PopUp = document.createElement('div');
   PopUp.classList.add('MobilePopUp');
   let str2= createStrProjectMob('Button1');
   PopUp.innerHTML = str2;
-  proy.appendChild(PopUp);
-
+  body.prepend(PopUp);
+  let btMobWhite = document.querySelector('.btMobWhite');
+  btMobWhite.addEventListener('click', ClosePopUp);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
  let string = createStrProjects(countProj);
   document.querySelector('#portf').innerHTML = string;
 
-
   /* PopUp Mobile & Desktop */
-
   let Button1 = document.querySelector('#Button1');
   Button1.addEventListener('click', CreatePopUp );
-
-
-
+  
 });
 
 
