@@ -86,7 +86,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Clone this repo
-- Go to the details_popup_window branch.
+- Go to the validate_contact_form branch.
 - Open the index.html file in your browser
 - Enjoy it. 😃
 
