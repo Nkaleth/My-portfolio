@@ -960,6 +960,7 @@ h3 {
   height: auto;
   background-image: url(img/Overlay.svg);
   background-position: center;
+  overflow: scroll;
 }
 
 .btMobWhite {
