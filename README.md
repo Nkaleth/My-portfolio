@@ -66,11 +66,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Enjoy this proyect 😃
+- [Live Demo Here 😃](https://nkaleth.github.io/My-portfolio/)
 
-- https://nkaleth.github.io/
-- Also you can watch an small presentation about it:
-https://www.loom.com/share/3775af48e28044be9d03a132100fe8a0
+- [Project presentation](https://www.loom.com/share/3775af48e28044be9d03a132100fe8a0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
