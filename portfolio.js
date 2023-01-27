@@ -2,12 +2,12 @@
 
 const projects = {
   1: {
-    name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: ['img/Snapshoot_Portfolio_mobile.jpg', 'img/Snapshoot_Portfolio_desktop.png'],
+    name: 'Conference page',
+    description: 'In this project I build a page based on an online website for a conference.',
+    featuredImage: ['img/conference_project_mobile.png', 'img/conference_project_desktop.png'],
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
-    liveVersion: '#url',
-    linkSource: '#url',
+    liveVersion: 'https://nkaleth.github.io/capstone_project1/',
+    linkSource: 'https://github.com/Nkaleth/capstone_project1',
   },
   2: {
     name: 'Keeping track of hundreds of components',
@@ -55,7 +55,16 @@ const countProj = Object.keys(projects).length;
 function createStrProjects(num) {
   let string = '';
   for (let i = 1; i <= num; i += 1) {
-    string += `<article class="project"><img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button></article>`;
+    string += `<article class="project">
+                <img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage">
+                <h3 class="Proj-Text">${projects[i].name}</h3>
+                <ul>
+                  <li class="tag">${projects[i].technologies[0]}</li>
+                  <li class="tag">${projects[i].technologies[1]}</li>
+                  <li class="tag">${projects[i].technologies[2]}</li>
+                </ul>
+                <button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button>
+              </article>`;
   }
   return string;
 }
@@ -65,9 +74,45 @@ function createStrProjectMob(id) {
   const str = id;
   const i = str.replace(/\D/g, '');
   if (window.innerWidth < 768) {
-    string = `<div class="whiteBackground"><article class="ProjectPopUp"><button class="btMobWhite"><img src="img/X_white.svg" alt="ButtonClose"></button><img class="imagePopMob" src="${projects[i].featuredImage[0]}" alt="ProjectImage"><h3 class="Proj-Text">${projects[i].name}</h3><ul><li class="tag">${projects[i].technologies[0]}</li><li class="tag">${projects[i].technologies[1]}</li><li class="tag">${projects[i].technologies[2]}</li></ul><p class="popUpDescription">${projects[i].description}</p><div class="buttonMobPopup"><a href="#live"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a></div></article></div>`;
+    string = `<div class="whiteBackground">
+                <article class="ProjectPopUp">
+                  <button class="btMobWhite"><img src="img/X_white.svg" alt="ButtonClose"></button>
+                  <img class="imagePopMob" src="${projects[i].featuredImage[0]}" alt="ProjectImage">
+                  <h3 class="Proj-Text">${projects[i].name}</h3>
+                  <ul>
+                    <li class="tag">${projects[i].technologies[0]}</li>
+                    <li class="tag">${projects[i].technologies[1]}</li>
+                    <li class="tag">${projects[i].technologies[2]}</li>
+                  </ul><p class="popUpDescription">${projects[i].description}</p>
+                  <div class="buttonMobPopup">
+                    <a href="${projects[i].liveVersion}"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a>
+                    <a href="${projects[i].linkSource}"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a>
+                  </div></article>
+              </div>`;
   } else {
-    string = `<div class="whiteBackground"><button class="btMobDesktop"><img src="img/proy_button_desktop.svg" alt="ButtonClose"></button><article class="ProjectPopUpDesk"><img class="proj-image" src="${projects[i].featuredImage[1]}" alt="ProjectImage"><div class="h3_ButtonsPopUpDesk"><h3 class="ProjTextPopUpDeskt">${projects[i].name}</h3><div class="buttonMobPopupDesk"><a href="#live"><img class="buttonPopUpDesktop" src="img/See_live.svg" alt="ButtonEnable"></a><a href="#github"><img class="buttonPopUpDesktop" src="img/See_source.svg" alt="ButtonEnable"></a></div></div><ul><li class="tagDesktop">${projects[i].technologies[0]}</li><li class="tagDesktop">${projects[i].technologies[1]}</li><li class="tagDesktop">${projects[i].technologies[2]}</li><li class="tagDesktop">${projects[i].technologies[3]}</li><li class="tagDesktop">${projects[i].technologies[4]}</li><li class="tagDesktop">${projects[i].technologies[5]}</li></ul><p class = "popUpDescription" >${projects[i].description}</p></article></div>`;
+    string = `<div class="whiteBackground">
+                <button class="btMobDesktop">
+                <img src="img/proy_button_desktop.svg" alt="ButtonClose"></button>
+                <article class="ProjectPopUpDesk">
+                  <img class="proj-image" src="${projects[i].featuredImage[1]}" alt="ProjectImage">
+                  <div class="h3_ButtonsPopUpDesk">
+                    <h3 class="ProjTextPopUpDeskt">${projects[i].name}</h3>
+                  <div class="buttonMobPopupDesk">
+                <a href="${projects[i].liveVersion}"><img class="buttonPopUpDesktop" src="img/See_live.svg" alt="ButtonEnable"></a>
+                <a href="${projects[i].linkSource}"><img class="buttonPopUpDesktop" src="img/See_source.svg" alt="ButtonEnable"></a>
+                  </div>
+                  </div>
+                  <ul>
+                    <li class="tagDesktop">${projects[i].technologies[0]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[1]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[2]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[3]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[4]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[5]}</li>
+                  </ul>
+                  <p class = "popUpDescription" >${projects[i].description}</p>
+                </article>
+              </div>`;
   }
   return string;
 }
