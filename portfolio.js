@@ -54,17 +54,32 @@ const countProj = Object.keys(projects).length;
 
 function createStrProjects(num) {
   let string = '';
+  if (window.innerWidth > 768) {
+    for (let i = 1; i <= num; i += 1) {
+      string += `<article class="project">
+                  <img class="proj-image" src="${projects[i].featuredImage[1]}" alt="ProjectImage">
+                  <h3 class="Proj-Text">${projects[i].name}</h3>
+                  <ul>
+                    <li class="tag">${projects[i].technologies[0]}</li>
+                    <li class="tag">${projects[i].technologies[1]}</li>
+                    <li class="tag">${projects[i].technologies[2]}</li>
+                  </ul>
+                  <button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button>
+                </article>`;
+    }
+    return string;
+  }
   for (let i = 1; i <= num; i += 1) {
     string += `<article class="project">
-                <img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage">
-                <h3 class="Proj-Text">${projects[i].name}</h3>
-                <ul>
-                  <li class="tag">${projects[i].technologies[0]}</li>
-                  <li class="tag">${projects[i].technologies[1]}</li>
-                  <li class="tag">${projects[i].technologies[2]}</li>
-                </ul>
-                <button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button>
-              </article>`;
+                  <img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage">
+                  <h3 class="Proj-Text">${projects[i].name}</h3>
+                  <ul>
+                    <li class="tag">${projects[i].technologies[0]}</li>
+                    <li class="tag">${projects[i].technologies[1]}</li>
+                    <li class="tag">${projects[i].technologies[2]}</li>
+                  </ul>
+                  <button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button>
+                </article>`;
   }
   return string;
 }
@@ -102,7 +117,7 @@ function createStrProjectMob(id) {
                 <a href="${projects[i].linkSource}"><img class="buttonPopUpDesktop" src="img/See_source.svg" alt="ButtonEnable"></a>
                   </div>
                   </div>
-                  <ul>
+                  <ul>9
                     <li class="tagDesktop">${projects[i].technologies[0]}</li>
                     <li class="tagDesktop">${projects[i].technologies[1]}</li>
                     <li class="tagDesktop">${projects[i].technologies[2]}</li>
@@ -113,7 +128,9 @@ function createStrProjectMob(id) {
                   <p class = "popUpDescription" >${projects[i].description}</p>
                 </article>
               </div>`;
+    console.log(projects[i].featuredImage[1]);
   }
+
   return string;
 }
 
