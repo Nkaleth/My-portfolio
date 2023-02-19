@@ -79,7 +79,6 @@ const loadProjects = () => {
 
   portfolio.addEventListener('click', (e) => {
     createStrProjectMob(projects, e.target.id);
-    console.log(e.target);
   });
 };
 
