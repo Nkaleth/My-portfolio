@@ -90,7 +90,7 @@ body {
   }
 
   .NavDesktop {
-    width: 30%;
+    width: 50%;
     height: auto;
     display: flex;
     justify-content: space-between;
