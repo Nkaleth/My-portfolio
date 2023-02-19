@@ -2,7 +2,91 @@ import  { projects, loadProjects } from "./modules/projects.js";
 
 loadProjects();
 
+<<<<<<< HEAD
 
+=======
+function createStrProjects(num) {
+  let string = '';
+  if (window.innerWidth > 768) {
+    for (let i = 1; i <= num; i += 1) {
+      string += `<article class="project">
+                  <img class="proj-image" src="${projects[i].featuredImage[1]}" alt="ProjectImage">
+                  <h3 class="Proj-Text">${projects[i].name}</h3>
+                  <ul>
+                    <li class="tag">${projects[i].technologies[0]}</li>
+                    <li class="tag">${projects[i].technologies[1]}</li>
+                    <li class="tag">${projects[i].technologies[2]}</li>
+                  </ul>
+                  <button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button>
+                </article>`;
+    }
+    return string;
+  }
+  for (let i = 1; i <= num; i += 1) {
+    string += `<article class="project">
+                  <img class="proj-image" src="${projects[i].featuredImage[0]}" alt="ProjectImage">
+                  <h3 class="Proj-Text">${projects[i].name}</h3>
+                  <ul>
+                    <li class="tag">${projects[i].technologies[0]}</li>
+                    <li class="tag">${projects[i].technologies[1]}</li>
+                    <li class="tag">${projects[i].technologies[2]}</li>
+                  </ul>
+                  <button id= "Button${i}" class="btProjMob" ><span class="TextButtonProjects">See Project</span></button>
+                </article>`;
+  }
+  return string;
+}
+
+function createStrProjectMob(id) {
+  let string = '';
+  const str = id;
+  const i = str.replace(/\D/g, '');
+  if (window.innerWidth < 768) {
+    string = `<div class="whiteBackground">
+                <article class="ProjectPopUp">
+                  <button class="btMobWhite"><img src="img/X_white.svg" alt="ButtonClose"></button>
+                  <img class="imagePopMob" src="${projects[i].featuredImage[0]}" alt="ProjectImage">
+                  <h3 class="Proj-Text">${projects[i].name}</h3>
+                  <ul>
+                    <li class="tag">${projects[i].technologies[0]}</li>
+                    <li class="tag">${projects[i].technologies[1]}</li>
+                    <li class="tag">${projects[i].technologies[2]}</li>
+                  </ul><p class="popUpDescription">${projects[i].description}</p>
+                  <div class="buttonMobPopup">
+                    <a href="${projects[i].liveVersion}"><img class="ButtonProj" src="img/See_live.svg" alt="ButtonEnable"></a>
+                    <a href="${projects[i].linkSource}"><img class="ButtonProj" src="img/See_source.svg" alt="ButtonEnable"></a>
+                  </div></article>
+              </div>`;
+  } else {
+    string = `<div class="whiteBackground">
+                <button class="btMobDesktop">
+                <img src="img/proy_button_desktop.svg" alt="ButtonClose"></button>
+                <article class="ProjectPopUpDesk">
+                  <img class="proj-image" src="${projects[i].featuredImage[1]}" alt="ProjectImage">
+                  <div class="h3_ButtonsPopUpDesk">
+                    <h3 class="ProjTextPopUpDeskt">${projects[i].name}</h3>
+                  <div class="buttonMobPopupDesk">
+                <a href="${projects[i].liveVersion}"><img class="buttonPopUpDesktop" src="img/See_live.svg" alt="ButtonEnable"></a>
+                <a href="${projects[i].linkSource}"><img class="buttonPopUpDesktop" src="img/See_source.svg" alt="ButtonEnable"></a>
+                  </div>
+                  </div>
+                  <ul>9
+                    <li class="tagDesktop">${projects[i].technologies[0]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[1]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[2]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[3]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[4]}</li>
+                    <li class="tagDesktop">${projects[i].technologies[5]}</li>
+                  </ul>
+                  <p class = "popUpDescription" >${projects[i].description}</p>
+                </article>
+              </div>`;
+    console.log(projects[i].featuredImage[1]);
+  }
+
+  return string;
+}
+>>>>>>> improve_styling
 
 function ClosePopUp() {
   const PopUp = document.querySelector('.MobilePopUp');
