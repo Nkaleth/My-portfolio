@@ -904,9 +904,19 @@ h3 {
 /* Mobile-Menu */
 
 .mobileMenu {
-  color: #3a4a42;
-  flex-direction: column;
   display: none;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 98%;
+  backdrop-filter: blur(80px);
+  transition: height 1s ease;
+  padding: 20px;
+  flex-direction: column;
 }
 
 .mobileMenu a {
