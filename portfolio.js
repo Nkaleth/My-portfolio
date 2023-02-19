@@ -23,8 +23,3 @@ MobileMenu.addEventListener('click', (e) => {
     goprojects();
   }
 });
-
-// goaboutme();
-// goprojects();
-// contactme();
-// displayMobileMenu();

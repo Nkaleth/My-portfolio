@@ -82,7 +82,7 @@ body {
   }
 
   .nav_748px {
-    width: 100%;
+    width: 32%;
     height: 72px;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@ body {
   }
 
   .NavDesktop {
-    width: 50%;
+    width: 90%;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -141,7 +141,7 @@ p {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  color: #172b4d;
+  color: #42526e;
 }
 
 .Headline {
@@ -246,7 +246,7 @@ h3 {
   line-height: 32px;
   text-align: center;
   vertical-align: center;
-  color: #3a4a42;
+  color: #172b4d;
 }
 
 .tag {
@@ -258,7 +258,7 @@ h3 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3a4a42;
+  color: #172b4d;
   list-style: none;
 }
 
@@ -302,11 +302,14 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
     color: #172b4d;
     width: 91.33%;
     height: 15.45%;
-    margin: 0;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
     padding: 0;
   }
 
@@ -934,7 +937,12 @@ h3 {
 .btMob {
   all: unset;
   position: relative;
-  right: -90%;
+  right: -70%;
+}
+
+.btMob:hover {
+
+  cursor: pointer;
 }
 
 .btProjMob {
