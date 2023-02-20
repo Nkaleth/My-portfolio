@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("img/illustration-about\ me-1-desktop.png") 100% 69% no-repeat, url("img/illustration-about-me-2-desktop.png") 0% 69% no-repeat, url("img/illustration-1-contact-form-desktop.png") 0% 99% no-repeat, url("img/illustration-2-contact-form-desktop.png") 20% 98% no-repeat, url("img/contact\ form-illustratoin-3-desktop.png") 100% 97.5% no-repeat;
+  background: url("img/illustration-about\ me-1-desktop.svg") 100% 69% no-repeat, url("img/illustration-about-me-2-desktop.svg") 0% 69% no-repeat, url("img/illustration-1-contact-form-desktop.svg") 0% 99% no-repeat, url("img/illustration-2-contact-form-desktop.svg") 20% 98% no-repeat, url("img/contact\ form-illustratoin-3-desktop.svg") 100% 97.5% no-repeat;
   background-size: auto;
 }
 
@@ -29,7 +29,7 @@ body {
 .first-part {
   width: 375px;
   height: 648px;
-  background-image: url(img/Background_header.png);
+  background-image: url(img/header-illsutration-mobile.svg);
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -750,7 +750,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("img/illustration-contact-form.png") 100% 0.1% no-repeat;
+  background: url("img/illustration-contact-form.svg") 100% 0.1% no-repeat;
 }
 
 /* Contact Form and Footer's styles for desktop version width > 768px */
@@ -817,7 +817,7 @@ h3 {
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
-    background: url("img/illustration-contact-form.png") 100% 98% no-repeat;
+    background: url("img/illustration-contact-form.svg") 100% 98% no-repeat;
   }
 
   .Final-part {
