@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     name: 'Conference page',
     description: 'In this project I build a page based on an online website for a conference.',
-    featuredImage: ['img/conference_project_mobile.png', 'img/conference_project_desktop.png'],
+    featuredImage: ['img/capstone1_mobile.png', 'img/capston1_desktop.png'],
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
     liveVersion: 'https://nkaleth.github.io/capstone_project1/',
     linkSource: 'https://github.com/Nkaleth/capstone_project1',
