@@ -82,7 +82,7 @@ body {
   }
 
   .nav_748px {
-    width: 100%;
+    width: 32%;
     height: 72px;
     display: flex;
     justify-content: center;
@@ -90,8 +90,8 @@ body {
   }
 
   .NavDesktop {
-    width: 20.71%;
-    height: 2.78%;
+    width: 90%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,7 +141,7 @@ p {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  color: #172b4d;
+  color: #42526e;
 }
 
 .Headline {
@@ -246,7 +246,7 @@ h3 {
   line-height: 32px;
   text-align: center;
   vertical-align: center;
-  color: #3a4a42;
+  color: #172b4d;
 }
 
 .tag {
@@ -258,7 +258,7 @@ h3 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3a4a42;
+  color: #172b4d;
   list-style: none;
 }
 
@@ -266,7 +266,8 @@ h3 {
 
 @media only screen and (min-width: 768px) {
   .Works {
-    width: 81.32%;
+    width: 90%;
+    height: auto;
     display: grid;
     row-gap: 1.5%;
     column-gap: 1.5%;
@@ -289,23 +290,26 @@ h3 {
 
   .project {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .proj-image {
     width: 100%;
-    height: 52%;
+    height: auto;
   }
 
   .Proj-Text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
     color: #172b4d;
     width: 91.33%;
     height: 15.45%;
-    margin: 0;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
     padding: 0;
   }
 
@@ -903,9 +907,19 @@ h3 {
 /* Mobile-Menu */
 
 .mobileMenu {
-  color: #3a4a42;
-  flex-direction: column;
   display: none;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 98%;
+  backdrop-filter: blur(80px);
+  transition: height 1s ease;
+  padding: 20px;
+  flex-direction: column;
 }
 
 .mobileMenu a {
@@ -923,15 +937,20 @@ h3 {
 .btMob {
   all: unset;
   position: relative;
-  right: -90%;
+  right: -70%;
+}
+
+.btMob:hover {
+  cursor: pointer;
 }
 
 .btProjMob {
-  width: 50%;
-  height: 10%;
+  width: 40%;
+  height: 30px;
   background: #36b37e;
   border-style: none;
   border-radius: 4px;
+  margin-bottom: 3%;
 }
 
 .TextButtonProjects {
@@ -954,13 +973,15 @@ h3 {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  z-index: 99999;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: auto;
   background-image: url(img/Overlay.svg);
   background-position: center;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .btMobWhite {
