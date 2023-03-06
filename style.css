@@ -817,7 +817,7 @@ h3 {
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
-    background: url("img/illustration-contact-form.svg") 100% 98% no-repeat;
+    background: url("img/illustration-contact-form.svg") 30% 98% no-repeat;
   }
 
   .Final-part {
