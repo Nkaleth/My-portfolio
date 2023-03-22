@@ -230,6 +230,17 @@ h2 {
   align-items: center;
 }
 
+.ProjImageBox{
+  width: 100%;
+  height: auto;
+}
+
+.proj-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  
+}
+
 .project ul {
   width: 305px;
   height: 32px;
@@ -293,9 +304,15 @@ h3 {
     height: auto;
   }
 
+  .ProjImageBox{
+    width: 80%;
+    height: 400px;
+  }
+  
   .proj-image {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: contain;  
   }
 
   .Proj-Text {
@@ -363,6 +380,17 @@ h3 {
   .proj-image {
     width: 100%;
     height: 52%;
+  }
+
+  .ProjImageBox{
+    width: 100%;
+    height: auto;
+  }
+  
+  .proj-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
   }
 
   .Proj-Text {
@@ -966,18 +994,19 @@ h3 {
 
 /* Style for MobilePopUp */
 
-.MobilePopUp {
+.PopUp {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   z-index: 99999;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: url(img/Overlay.svg);
-  background-position: center;
+ background-position: center;
   overflow: auto;
 }
 
@@ -1018,17 +1047,75 @@ h3 {
 
 /* Style for DesktopPopUp */
 
+.PopUp {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/Overlay.svg);
+ background-position: center;
+  overflow: auto;
+}
+
 .whiteBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 90%;
   margin: 3%;
   border-radius: 8px;
   background-color: #fff;
 }
 
 .ProjectPopUpDesk {
-  margin: 3%;
-  width: auto;
-  height: auto;
+  display: flex;
+  height: 95%;
+  flex-direction: column;
+justify-content: center;
+  align-items: center;
+  margin: 2%;
   background: #fff;
+}
+
+.btMobDesktop {
+  all: unset;
+  position: absolute;
+  left: 88%;
+  top: 7%;
+}
+
+.btMobDesktop:hover {
+  cursor: pointer;
+  
+}
+
+.ProjImageBoxPopUp {
+  position: relative;
+  width: auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.proj_imagePopUp{
+  max-width: 90%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.detailsContainer {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .ProjectPopUpDesk ul {
@@ -1070,27 +1157,21 @@ h3 {
   width: 98%;
   height: auto;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 85%;
+  line-height: 20px;
   color: #344563;
   text-align: start;
 }
 
 .ProjTextPopUpDeskt {
   width: 100%;
+  height: auto;
   font-weight: 700;
   font-size: 28px;
   line-height: 44px;
   color: #172b4d;
   text-align: start;
   justify-items: center;
-}
-
-.btMobDesktop {
-  all: unset;
-  float: right;
-  margin-right: 1%;
-  margin-top: 0.5%;
 }
 
 .h3_ButtonsPopUpDesk {
