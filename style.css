@@ -230,7 +230,7 @@ h2 {
   align-items: center;
 }
 
-.ProjImageBox{
+.ProjImageBox {
   width: 100%;
   height: auto;
 }
@@ -238,7 +238,7 @@ h2 {
 .proj-image {
   width: 100%;
   height: 100%;
-  object-fit: contain;  
+  object-fit: contain;
 }
 
 .project ul {
@@ -304,15 +304,15 @@ h3 {
     height: auto;
   }
 
-  .ProjImageBox{
+  .ProjImageBox {
     width: 80%;
     height: 400px;
   }
-  
+
   .proj-image {
     width: 100%;
     height: 100%;
-    object-fit: contain;  
+    object-fit: contain;
   }
 
   .Proj-Text {
@@ -377,20 +377,15 @@ h3 {
     height: 100%;
   }
 
-  .proj-image {
-    width: 100%;
-    height: 52%;
-  }
-
-  .ProjImageBox{
+  .ProjImageBox {
     width: 100%;
     height: auto;
   }
-  
+
   .proj-image {
     width: 100%;
     height: 100%;
-    object-fit: contain;  
+    object-fit: contain;
   }
 
   .Proj-Text {
@@ -832,7 +827,7 @@ h3 {
   }
 
   .lineFooter {
-    width: 150%;
+    width: 100%;
     margin-bottom: 25px;
   }
 
@@ -994,22 +989,6 @@ h3 {
 
 /* Style for MobilePopUp */
 
-.PopUp {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 99999;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  background-image: url(img/Overlay.svg);
- background-position: center;
-  overflow: auto;
-}
-
 .btMobWhite {
   all: unset;
   position: absolute;
@@ -1059,7 +1038,7 @@ h3 {
   width: 100%;
   height: 100vh;
   background-image: url(img/Overlay.svg);
- background-position: center;
+  background-position: center;
   overflow: auto;
 }
 
@@ -1079,7 +1058,7 @@ h3 {
   display: flex;
   height: 95%;
   flex-direction: column;
-justify-content: center;
+  justify-content: center;
   align-items: center;
   margin: 2%;
   background: #fff;
@@ -1094,7 +1073,6 @@ justify-content: center;
 
 .btMobDesktop:hover {
   cursor: pointer;
-  
 }
 
 .ProjImageBoxPopUp {
@@ -1105,7 +1083,8 @@ justify-content: center;
   justify-content: center;
   align-content: center;
 }
-.proj_imagePopUp{
+
+.proj_imagePopUp {
   max-width: 90%;
   max-height: 100%;
   object-fit: contain;
@@ -1182,6 +1161,7 @@ justify-content: center;
 
 .btProjMob:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .btProjMob:active {
